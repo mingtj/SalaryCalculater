@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">140dp</dimen>
+    <dimen name="height_top_bar">48dp</dimen>
+    
+    <dimen name="RoundImageheight_mean">70dp</dimen>
+    <dimen name="mean_size">14dp</dimen>
+    <dimen name="RoundImageheight_my">80dp</dimen>
+     
+    <!--
+    <dimen name="header_height">298dp</dimen>
+	 <dimen name="min_header_height">250dp</dimen>
+	<dimen name="header_logo_size">100dp</dimen> --> 
+	
+	<dimen name="header_height">213dp</dimen><!-- 头部总高度 160 194-->
+	 <dimen name="min_header_height">165dp</dimen><!-- 导航到头部的距离 112-->
+	 <dimen name="header_tab_height">48dp</dimen><!-- 头部tab的高度，等于总高度减去min_header_height的高度 160-112-->
+	 <dimen name="course_padding_left_right">15dp</dimen>
+	 <dimen name="header_content_height">72dp</dimen>
+	 
+	 <dimen name="teacher_img_dimen">36dp</dimen>
+	 <dimen name="teacher_txt_size">12sp</dimen>
+	 
+	 <dimen name="sp11">11dp</dimen>
+	 <dimen name="sp12">12dp</dimen>
+	 <dimen name="sp13">13dp</dimen>
+	 <dimen name="sp14">14dp</dimen>
+	 <dimen name="sp15">15dp</dimen>
+	 <dimen name="sp16">16dp</dimen>
+	 <dimen name="sp17">17dp</dimen>
+	 <dimen name="sp18">18dp</dimen>
+	 <dimen name="sp19">19dp</dimen>
+	 <dimen name="sp20">20dp</dimen>
+	 
+	 <dimen name="arrow_right">10dp</dimen>
+	 <dimen name="dp5">5dip</dimen>
+	 <dimen name="dp10">10dp</dimen>
+	 <dimen name="dp12">12dp</dimen>
+	 <dimen name="dp13">13dp</dimen>
+	 <dimen name="dp15">15dp</dimen>
+	 <dimen name="dp18">18dp</dimen>
+	 <dimen name="dp20">20dp</dimen>
+	 <dimen name="dp23">23dp</dimen>
+	 <dimen name="dp25">25dp</dimen>
+	 <dimen name="dp30">30dp</dimen>
+	 <dimen name="dp40">40dp</dimen>
+	 <dimen name="dp45">45dp</dimen>
+	 <dimen name="dp48">48dp</dimen>
+	 <dimen name="dp50">50dp</dimen>
+	 <dimen name="dp85">85dp</dimen>
+	 <dimen name="dp90">90dp</dimen>
+	 <dimen name="video_view_height">200dp</dimen>
+	 
+	 <!-- 动态 -->
+	 <dimen name="lunbo_height">175dp</dimen><!-- 轮播高度 -->
+     <dimen name="topbar_height">45dp</dimen><!-- 50 --><!-- 头部高度 -->
+     <dimen name="bottomtab_height">48dp</dimen><!-- 54 --><!-- 底部高度  -->
+	 <dimen name="nav_left_right_padding">18dp</dimen><!-- 类型导航距离左右的距离 -->
+	 <dimen name="nav_padding">18dp</dimen><!-- 导航间的间距 -->
+    
+    <dimen name="home_menu_margin_5">5dip</dimen>
+    <dimen name="home_menu_margin_8">8dip</dimen>
+    <dimen name="margin_10">10dip</dimen>
+    <dimen name="margin_15">15dip</dimen>
+    <dimen name="btn_height">45dip</dimen>
+    
+    <dimen name="button_text_size">14sp</dimen>
+    <dimen name="expand_tab_item_height">45dp</dimen>
+    <dimen name="expand_tab_eara_height">380dp</dimen>
+    <dimen name="head_bar_height">45dp</dimen>
+    <dimen name="video_height">220dp</dimen>
+    
+    <dimen name="video_ban_height">230dp</dimen>
+    
+</resources>

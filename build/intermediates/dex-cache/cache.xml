@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/libs/fastjson-1.1.37.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.0.0"
+        sha1="cf6653799afcf3cef4db433bc75286302b43729c">
+        <dex dex="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/build/intermediates/pre-dexed/debug/fastjson-1.1.37_a9894d3ce92cc90b38986507bb4f3fe711ffbf94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/libs/bugly_crash_release.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.0.0"
+        sha1="11a294f511cf1e23f525c87ca4cc1d92c9f3d6a2">
+        <dex dex="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/build/intermediates/pre-dexed/debug/bugly_crash_release_55456d173e8b409f81b2c23f4aa7a36efbc67afb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/libs/xutils-3.3.36.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a525a7f2e266f577629f68820a462a807c66eec7">
+        <dex dex="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/build/intermediates/pre-dexed/debug/xutils-3.3.36_05ed2f1ba0cb5ef159c0b2da466384b673acbcad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/libs/eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_4359c07c8a50132024cd734a38b3b95d47c0579c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/AndroidTool/android-sdks/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_3eab211a899ce0f3fb27e715b12e9e83c8e1440b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/libs/umeng-analytics-v6.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.0.0"
+        sha1="aab9085bca0c26dcb9cb11837a5f5e22cc102a5e">
+        <dex dex="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/build/intermediates/pre-dexed/debug/umeng-analytics-v6.0.1_f6e65cbbc42b440070ca075447eed4b2059f7075.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-18.0.0_f30d4b520df49e6e8dcc178b61cb13263cedfc3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/libs/xutils-3.3.36.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.0.0"
+        sha1="a525a7f2e266f577629f68820a462a807c66eec7">
+        <dex dex="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/build/intermediates/pre-dexed/debug/xutils-3.3.36_05ed2f1ba0cb5ef159c0b2da466384b673acbcad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mingtingjie/.gradle/caches/modules-2/files-2.1/org.greenrobot/greendao-api/3.2.0/c6d610abe1d75d758431c9234917a349abc0a0ac/greendao-api-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6d610abe1d75d758431c9234917a349abc0a0ac">
+        <dex dex="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/build/intermediates/pre-dexed/debug/greendao-api-3.2.0_807382f861ed0b0e05530f369e91812e46475f6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/libs/bugly_crash_release.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="11a294f511cf1e23f525c87ca4cc1d92c9f3d6a2">
+        <dex dex="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/build/intermediates/pre-dexed/debug/bugly_crash_release_55456d173e8b409f81b2c23f4aa7a36efbc67afb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mingtingjie/.gradle/caches/modules-2/files-2.1/org.greenrobot/greendao/3.2.0/e70040568b2929b8e5869ad1ffca8e4386dc53bc/greendao-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e70040568b2929b8e5869ad1ffca8e4386dc53bc">
+        <dex dex="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/build/intermediates/pre-dexed/debug/greendao-3.2.0_c9b3d1a05dabdd644156bebdc74ac8d4e7e502b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/libs/fastjson-1.1.37.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf6653799afcf3cef4db433bc75286302b43729c">
+        <dex dex="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/build/intermediates/pre-dexed/debug/fastjson-1.1.37_a9894d3ce92cc90b38986507bb4f3fe711ffbf94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/libs/eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_4359c07c8a50132024cd734a38b3b95d47c0579c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/libs/umeng-analytics-v6.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aab9085bca0c26dcb9cb11837a5f5e22cc102a5e">
+        <dex dex="/Users/mingtingjie/Desktop/android6.0/SalaryCalculater/app/build/intermediates/pre-dexed/debug/umeng-analytics-v6.0.1_f6e65cbbc42b440070ca075447eed4b2059f7075.jar" />
+    </item>
+
+</items>

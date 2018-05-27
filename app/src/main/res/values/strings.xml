@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SalaryCalculater</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="fragment_hrnews">fragment_hrnews</string>
+    <string name="fragment_salary">fragment_salary</string>
+    <string name="fragment_set">fragment_set</string>
+
+    <!--底部tab start-->
+    <string name="tab_hrnews">资讯</string>
+    <string name="tab_salary">助手</string>
+    <string name="tab_set">设置</string>
+
+    <!--底部tab end-->
+
+    <!--设置模块 start-->
+    <string name="set_adbout">关于</string>
+
+    <!--设置模块 end-->
+    <string name="set_user_name">小蒋</string>
+    <string name="set_user">人员增减</string>
+    <string name="set_bumen">部门设置</string>
+    <string name="set_zw">职务设置</string>
+    <string name="set_eamil_format">邮箱格式</string>
+    <string name="set_bz">基础补助项</string>
+    <string name="set_kk">基础扣款项</string>
+    <string name="set_jl">基础奖励项</string>
+
+
+    <!--人员信息-->
+    <string name="user_name">名字</string>
+    <string name="user_sex">性别</string>
+    <string name="user_sfz">身份证号码</string>
+    <string name="user_gh">工号</string>
+    <string name="user_bm">部门</string>
+    <string name="user_zw">职务</string>
+    <string name="user_tel">TEL</string>
+    <string name="user_eamil">E-Mail</string>
+    <string name="salary_base">岗位薪资</string>
+
+    <!--补助奖励项-->
+    <string name="salary_jt">交通补助(元/月)</string>
+    <string name="salary_tel">电话补助(元/月)</string>
+    <string name="salary_cb">餐补(元/餐)</string>
+    <string name="salary_dn">电脑补助(元/月)</string>
+    <string name="salary_qqj">全勤奖(元/月)</string>
+
+
+    <!--扣款项-->
+    <string name="salary_sb">社保缴纳基数(元/月)</string>
+    <string name="salary_gjj">公积金缴纳基数(元/月)</string>
+    <string name="salary_gs">个税档位设置</string>
+    <string name="salary_cd">迟到扣款(元/次)</string>
+
+
+</resources>

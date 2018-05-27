@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color" >
+
+    <!--<include-->
+        <!--layout="@layout/toplayout_img"-->
+        <!--/>-->
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/user_userinfo_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/item_seletor"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:clickable="true" >
+
+
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/set_user_name"
+                    android:textColor="@color/user_center_text_color"
+                    />
+
+                <TextView
+                    android:id="@+id/user_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/mean_size"
+                    android:textColor="@color/user_center_text_color"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="matrix"
+                    android:src="@drawable/arrow_right"
+                    />
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/group_layout_user"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/user_userinfo_layout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/item_seletor"
+                android:clickable="true" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/set_user"
+                    android:textColor="@color/user_center_text_color"
+                    android:textSize="16sp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/arrow_right"
+                    android:scaleType="matrix"
+                    android:src="@drawable/arrow_right" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/group_layout_bumen"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/group_layout_user"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_seletor"
+                android:clickable="true" >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/set_bumen"
+                    android:textColor="@color/user_center_text_color"
+                    android:textSize="16sp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/arrow_right"
+                    android:scaleType="matrix"
+                    android:src="@drawable/arrow_right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/group_layout_zw"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/group_layout_bumen"
+                android:background="@drawable/item_seletor"
+                android:layout_marginTop="1dp"
+                android:clickable="true" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/set_zw"
+                    android:textColor="@color/user_center_text_color"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/cache_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:textColor="@color/gray"
+                    />
+            </RelativeLayout>
+
+            <!--email 格式start-->
+            <RelativeLayout
+                android:id="@+id/group_layout_emailformat"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/group_layout_zw"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_seletor"
+                android:clickable="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/set_eamil_format"
+                    android:textColor="@color/user_center_text_color"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/arrow_right"
+                    android:scaleType="matrix"
+                    android:src="@drawable/arrow_right" />
+
+            </RelativeLayout>
+            <!--eamil 格式end-->
+
+            <!--补助项start-->
+            <RelativeLayout
+                android:id="@+id/group_layout_bz"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/group_layout_emailformat"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_seletor"
+                android:clickable="true" >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/set_bz"
+                    android:textColor="@color/user_center_text_color"
+                    android:textSize="16sp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/arrow_right"
+                    android:scaleType="matrix"
+                    android:src="@drawable/arrow_right" />
+            </RelativeLayout>
+        <!--补助项end-->
+
+
+        <!--扣款项start-->
+            <RelativeLayout
+                android:id="@+id/group_layout_kk"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/group_layout_bz"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_seletor"
+                android:clickable="true" >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/set_kk"
+                    android:textColor="@color/user_center_text_color"
+                    android:textSize="16sp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/arrow_right"
+                    android:scaleType="matrix"
+                    android:src="@drawable/arrow_right" />
+            </RelativeLayout>
+            <!--扣款项end-->
+
+            <!--扣款项start-->
+            <RelativeLayout
+                android:id="@+id/group_layout_jl"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/group_layout_kk"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/item_seletor"
+                android:clickable="true" >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/set_jl"
+                    android:textColor="@color/user_center_text_color"
+                    android:textSize="16sp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/arrow_right"
+                    android:scaleType="matrix"
+                    android:src="@drawable/arrow_right" />
+            </RelativeLayout>
+            <!--扣款项end-->
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

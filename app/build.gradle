@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion "25.0.2"
+
+    /**
+     *默认配置
+     * 最小版本，目标版本
+     */
+    defaultConfig {
+        applicationId "com.jm.hrhelper"
+        minSdkVersion 15
+        targetSdkVersion 15
+    }
+
+    /**
+     * 编译类型
+     * debug or release
+     */
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+/**
+ * greenDao
+ * 1.gd1,2.gd2,3.gd3,4.gd4
+ */
+
+/**
+ * 依赖库
+ */
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile files('libs/bugly_crash_release.jar')
+    compile files('libs/eventbus-3.0.0.jar')
+    compile files('libs/fastjson-1.1.37.jar')
+    compile files('libs/umeng-analytics-v6.0.1.jar')
+    compile files('libs/xutils-3.3.36.jar')
+    compile 'com.android.support:appcompat-v7:18.0.0'
+    compile 'org.greenrobot:greendao:3.2.0' // add library  =======gd1
+}
+
+// In your root build.gradle file:=======gd2
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral() // add repository
+    }
+    dependencies {
+        //classpath 'com.android.tools.build:gradle:3.1.1'
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.1' // add plugin
+    }
+}
+
+// In your app projects build.gradle file:
+apply plugin: 'org.greenrobot.greendao' // apply plugin  =========gd3
+
+//gd4：
+greendao{
+    schemaVersion 1;//-->指定数据库schema版本号，迁移等操作会用到;
+    daoPackage 'com.jm.hrhelper.greendao.gen'   //-->dao的包名，包名默认是entity所在的包；
+//    targetGenDir '' //-->生成数据库文件的目录;
+}
+
+
+
+
+
